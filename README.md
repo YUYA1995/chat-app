@@ -12,7 +12,7 @@
 
 - has_many :room_users
 - has_many :rooms, through: rooms_users
--has_many :messages
+- has_many :messages
 
 ## rooms テーブル
 
@@ -24,7 +24,7 @@
 
 - has_many :room_users
 - has_many :rooms, through: rooms_users
--has_many :messages
+- has_many :messages
 
 ## room_users テーブル
 
